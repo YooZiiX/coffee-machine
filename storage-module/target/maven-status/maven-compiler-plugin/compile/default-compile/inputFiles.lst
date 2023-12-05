@@ -1,0 +1,10 @@
+C:\.dev\.java\coffee-machine\storage-module\src\main\java\fr\imt\mines\cupboard\container\CoffeeCup.java
+C:\.dev\.java\coffee-machine\storage-module\src\main\java\fr\imt\mines\cupboard\coffee\type\CoffeeType.java
+C:\.dev\.java\coffee-machine\storage-module\src\main\java\fr\imt\mines\cupboard\container\Container.java
+C:\.dev\.java\coffee-machine\storage-module\src\main\java\fr\imt\mines\cupboard\exception\CupNotEmptyException.java
+C:\.dev\.java\coffee-machine\storage-module\src\main\java\fr\imt\mines\cupboard\exception\ExceptionContainerCreation.java
+C:\.dev\.java\coffee-machine\storage-module\src\main\java\fr\imt\mines\cupboard\container\CoffeeContainer.java
+C:\.dev\.java\coffee-machine\storage-module\src\main\java\fr\imt\mines\cupboard\container\CoffeeMug.java
+C:\.dev\.java\coffee-machine\storage-module\src\main\java\fr\imt\mines\cupboard\container\Mug.java
+C:\.dev\.java\coffee-machine\storage-module\src\main\java\fr\imt\mines\cupboard\FabricCupboardContainer.java
+C:\.dev\.java\coffee-machine\storage-module\src\main\java\fr\imt\mines\cupboard\container\Cup.java

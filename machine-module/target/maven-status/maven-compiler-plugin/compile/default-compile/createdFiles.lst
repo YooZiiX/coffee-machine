@@ -1,0 +1,13 @@
+fr\imt\mines\EspressoCoffeeMachine.class
+fr\imt\mines\component\CoffeeGrinder.class
+fr\imt\mines\component\WaterTank.class
+fr\imt\mines\exception\MachineNotPluggedException.class
+fr\imt\mines\component\ElectricalResistance.class
+fr\imt\mines\component\BeanTank.class
+fr\imt\mines\exception\CannotMakeCremaWithSimpleCoffeeMachine.class
+fr\imt\mines\component\Tank.class
+fr\imt\mines\component\WaterPump.class
+fr\imt\mines\CoffeeMachine.class
+fr\imt\mines\exception\LackOfWaterInTankException.class
+fr\imt\mines\component\SteamPipe.class
+fr\imt\mines\exception\CoffeeTypeCupDifferentOfCoffeeTypeTankException.class

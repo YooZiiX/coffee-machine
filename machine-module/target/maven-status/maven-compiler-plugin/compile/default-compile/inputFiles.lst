@@ -1,0 +1,13 @@
+C:\.dev\.java\coffee-machine\machine-module\src\main\java\fr\imt\mines\component\WaterTank.java
+C:\.dev\.java\coffee-machine\machine-module\src\main\java\fr\imt\mines\component\WaterPump.java
+C:\.dev\.java\coffee-machine\machine-module\src\main\java\fr\imt\mines\component\CoffeeGrinder.java
+C:\.dev\.java\coffee-machine\machine-module\src\main\java\fr\imt\mines\exception\CannotMakeCremaWithSimpleCoffeeMachine.java
+C:\.dev\.java\coffee-machine\machine-module\src\main\java\fr\imt\mines\component\SteamPipe.java
+C:\.dev\.java\coffee-machine\machine-module\src\main\java\fr\imt\mines\CoffeeMachine.java
+C:\.dev\.java\coffee-machine\machine-module\src\main\java\fr\imt\mines\exception\MachineNotPluggedException.java
+C:\.dev\.java\coffee-machine\machine-module\src\main\java\fr\imt\mines\component\BeanTank.java
+C:\.dev\.java\coffee-machine\machine-module\src\main\java\fr\imt\mines\exception\CoffeeTypeCupDifferentOfCoffeeTypeTankException.java
+C:\.dev\.java\coffee-machine\machine-module\src\main\java\fr\imt\mines\component\Tank.java
+C:\.dev\.java\coffee-machine\machine-module\src\main\java\fr\imt\mines\exception\LackOfWaterInTankException.java
+C:\.dev\.java\coffee-machine\machine-module\src\main\java\fr\imt\mines\component\ElectricalResistance.java
+C:\.dev\.java\coffee-machine\machine-module\src\main\java\fr\imt\mines\EspressoCoffeeMachine.java

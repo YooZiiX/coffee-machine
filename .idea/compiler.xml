@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="coffee-machine" />
+        <module name="storage-module" />
+        <module name="machine-module" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cupboard" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
