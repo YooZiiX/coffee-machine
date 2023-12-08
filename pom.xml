@@ -49,12 +49,12 @@
                         <id>createThriftDir</id>
                         <phase>test</phase>
                         <configuration>
-                            <tasks>
+                            <target>
                                 <!--suppress UnresolvedMavenProperty -->
                                 <delete dir="${env.HOME}/jacoco"/>
                                 <!--suppress UnresolvedMavenProperty -->
                                 <mkdir dir="${env.HOME}/jacoco"/>
-                            </tasks>
+                            </target>
                         </configuration>
                         <goals>
                             <goal>run</goal>

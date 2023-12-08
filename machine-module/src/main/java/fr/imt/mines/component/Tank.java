@@ -19,15 +19,15 @@ public class Tank {
 
     /**
      * Réduit le volume de matière dans le réservoir
-     * @param volumeToDecrease Volume de matière à enlever dans le réservoir
+     * @param volumeToDecrease Volume de matière à enlever dans le réservoir (volumeToDecrease > 0)
      */
     public void decreaseVolumeInTank(double volumeToDecrease){
-        this.actualVolume += volumeToDecrease;
+        this.actualVolume -= volumeToDecrease;
     }
 
     /**
      * Augmente le volume de matière dans le réservoir
-     * @param volumeToIncrease Volume de matière à ajouter dans le réservoir
+     * @param volumeToIncrease Volume de matière à ajouter dans le réservoir (volumeToDecrease > 0)
      */
     public void increaseVolumeInTank(double volumeToIncrease){
         this.actualVolume += volumeToIncrease;

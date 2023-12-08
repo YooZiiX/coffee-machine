@@ -2,7 +2,7 @@ package fr.imt.mines.component;
 
 import fr.imt.mines.cupboard.coffee.type.CoffeeType;
 
-public class BeanTank extends Tank{
+public class BeanTank extends Tank {
 
     private CoffeeType beanCoffeeType;
     /**
