@@ -1,12 +1,15 @@
 package fr.imt.mines.component;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class ElectricalResistanceTest {
+
+    private double power = 1000;
+    private double waterVolume = 0.15;
 
     /** Fonction permettant de calculer le temps de chauffe de l'eau attendu.
      * Permet d'éviter de recalculer ce temps dans chaque test et éviter les erreurs humaines
@@ -14,7 +17,7 @@ public class ElectricalResistanceTest {
      @param waterVolume Volume d'eau en litre.
      */
     public double computeHeatingTime(double power, double waterVolume){
-        return ((waterVolume * 4180 * (90 - 20)) / power) * 1000 / 10;
+        return ((waterVolume * 5180 * (90 - 20)) / power) * 1000 / 10;
     }
 
     /**
@@ -23,9 +26,6 @@ public class ElectricalResistanceTest {
      */
     @Test
     public void testWaterHeatingNominalCaseWithJUnit() throws InterruptedException {
-        double power = 1000;
-        double waterVolume = 0.15;
-
         double heatingTimeExpected = computeHeatingTime(power, waterVolume);
 
         ElectricalResistance electricalResistance = new ElectricalResistance(power);
@@ -34,7 +34,7 @@ public class ElectricalResistanceTest {
         //Assertion faite avec JUnit5 qui permet de vérifier que la valeur renvoyée par la resistance est bien égale
         //à l'attendue.
         //assertEquals(valeurAttendue, valeurRenvoyée)
-        Assertions.assertEquals(heatingTimeExpected, heatingTimeActual);
+        assertEquals(heatingTimeExpected, heatingTimeActual);
     }
 
     /**
@@ -43,11 +43,7 @@ public class ElectricalResistanceTest {
      */
     @Test
     public void testWaterHeatingNominalCaseWithHamcrest() throws InterruptedException {
-        double power = 1000;
-        double waterVolume = 0.15;
-
         double heatingTimeExpected = computeHeatingTime(power, waterVolume);
-
         ElectricalResistance electricalResistance = new ElectricalResistance(power);
         double heatingTimeActual = electricalResistance.waterHeating(waterVolume);
 

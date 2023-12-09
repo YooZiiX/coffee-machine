@@ -109,7 +109,6 @@ public class CoffeeMachineTest {
     public void testMakeACoffeeCupNotEmptyException(){
         Cup mockCup = Mockito.mock(Cup.class);
         Mockito.when(mockCup.isEmpty()).thenReturn(false);
-
         coffeeMachineUnderTest.plugToElectricalPlug();
 
         //assertThrows( [Exception class expected], [lambda expression with the method that throws an exception], [exception message expected])
@@ -119,10 +118,5 @@ public class CoffeeMachineTest {
         Assertions.assertThrows(CupNotEmptyException.class, ()->{
             coffeeMachineUnderTest.makeACoffee(mockCup, CoffeeType.MOKA);
         });
-    }
-
-    @AfterEach
-    public void afterTest(){
-
     }
 }

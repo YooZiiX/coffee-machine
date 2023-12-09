@@ -36,6 +36,6 @@ public class EspressoCoffeeMachineTest {
         }
         assertNotNull(result);
         assertFalse(result.isEmpty());
-        assertEquals(14, espressoCoffeeMachine.getNbCoffeeMade());
+        assertEquals(15, espressoCoffeeMachine.getNbCoffeeMade());
     }
 }

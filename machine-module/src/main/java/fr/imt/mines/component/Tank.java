@@ -13,7 +13,7 @@ public class Tank {
      */
     public Tank(double initialVolume, double minVolume, double maxVolume){
         this.maxVolume = maxVolume;
-        this.minVolume = maxVolume;
+        this.minVolume = minVolume;
         this.actualVolume = initialVolume;
     }
 
@@ -22,7 +22,11 @@ public class Tank {
      * @param volumeToDecrease Volume de matière à enlever dans le réservoir (volumeToDecrease > 0)
      */
     public void decreaseVolumeInTank(double volumeToDecrease){
-        this.actualVolume -= volumeToDecrease;
+        if (this.actualVolume - volumeToDecrease <= this.minVolume){
+            this.actualVolume = this.minVolume;
+        } else {
+            this.actualVolume -= volumeToDecrease;
+        }
     }
 
     /**
@@ -30,7 +34,11 @@ public class Tank {
      * @param volumeToIncrease Volume de matière à ajouter dans le réservoir (volumeToDecrease > 0)
      */
     public void increaseVolumeInTank(double volumeToIncrease){
-        this.actualVolume += volumeToIncrease;
+        if (this.actualVolume + volumeToIncrease >= this.maxVolume){
+            this.actualVolume = this.maxVolume;
+        } else {
+            this.actualVolume += volumeToIncrease;
+        }
     }
 
     public double getMaxVolume() {

@@ -30,7 +30,7 @@ public class WaterTankTest {
     @Test
     void testIncreaseVolumeInWaterTank() {
         waterTank.increaseVolumeInTank(25.0);
-        assertEquals(25.0, waterTank.getActualVolume());
+        assertEquals(75.0, waterTank.getActualVolume());
     }
 
     @Test

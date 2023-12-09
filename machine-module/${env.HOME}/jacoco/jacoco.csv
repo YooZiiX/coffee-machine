@@ -1,0 +1,14 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+machine-module,fr.imt.mines.exception,CannotMakeCremaWithSimpleCoffeeMachine,4,0,0,0,2,0,1,0,1,0
+machine-module,fr.imt.mines.exception,CoffeeTypeCupDifferentOfCoffeeTypeTankException,4,0,0,0,2,0,1,0,1,0
+machine-module,fr.imt.mines.exception,LackOfWaterInTankException,4,0,0,0,2,0,1,0,1,0
+machine-module,fr.imt.mines.exception,MachineNotPluggedException,0,4,0,0,0,2,0,1,0,1
+machine-module,fr.imt.mines.component,Tank,0,61,0,4,0,16,0,8,0,6
+machine-module,fr.imt.mines.component,WaterPump,3,37,0,0,1,11,1,3,1,3
+machine-module,fr.imt.mines.component,WaterTank,0,6,0,0,0,2,0,1,0,1
+machine-module,fr.imt.mines.component,CoffeeGrinder,0,32,0,0,0,10,0,3,0,3
+machine-module,fr.imt.mines.component,ElectricalResistance,3,38,0,0,1,10,1,3,1,3
+machine-module,fr.imt.mines.component,BeanTank,0,23,0,0,0,9,0,4,0,4
+machine-module,fr.imt.mines.component,SteamPipe,4,13,0,0,2,6,1,3,1,3
+machine-module,fr.imt.mines,CoffeeMachine,116,134,13,5,30,35,13,17,5,16
+machine-module,fr.imt.mines,EspressoCoffeeMachine,34,97,9,9,5,21,8,3,0,2
