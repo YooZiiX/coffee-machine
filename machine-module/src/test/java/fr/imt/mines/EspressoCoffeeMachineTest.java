@@ -16,12 +16,10 @@ import static org.junit.jupiter.api.Assertions.*;
 public class EspressoCoffeeMachineTest {
 
     private EspressoCoffeeMachine espressoCoffeeMachine;
-
     @BeforeEach
     void setUp() {
         espressoCoffeeMachine = new EspressoCoffeeMachine(10.0, 50.0, 5.0, 20.0, 2.0);
     }
-
     @Test
     void testMakeCoffeePlugged() {
         espressoCoffeeMachine.plugToElectricalPlug();

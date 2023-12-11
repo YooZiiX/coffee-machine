@@ -1,0 +1,110 @@
+-------------------------------------------------------------------------------
+Test set: fr.imt.mines.CoffeeMachineCucumberFunctionalTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.764 s <<< FAILURE! - in fr.imt.mines.CoffeeMachineCucumberFunctionalTest
+Make a coffee Functionality.Functional while plugged in  Time elapsed: 0.44 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'a Coffee Machine' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("a Coffee Machine")
+public void a_coffee_machine() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I plug in the Coffee Machine")
+public void i_plug_in_the_coffee_machine() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the Coffee Machine should be plugged in")
+public void the_coffee_machine_should_be_plugged_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Make a coffee Functionality.Make Espresso in a Cup with Espresso Coffee Machine  Time elapsed: 0.057 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'an Espresso Coffee Machine' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("an Espresso Coffee Machine")
+public void an_espresso_coffee_machine() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("the Espresso Coffee Machine is plugged in")
+public void the_espresso_coffee_machine_is_plugged_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("the Water Tank of the Espresso Coffee Machine has enough Water")
+public void the_water_tank_of_the_espresso_coffee_machine_has_enough_water() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("the Bean Tank of the Espresso Coffee Machine has enough Beans")
+public void the_bean_tank_of_the_espresso_coffee_machine_has_enough_beans() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I put a Cup")
+public void i_put_a_cup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I make an Espresso")
+public void i_make_an_espresso() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should have a Cup of Espresso")
+public void i_should_have_a_cup_of_espresso() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Make a coffee Functionality.Make Coffee in a Mug with Coffee Machine  Time elapsed: 0.065 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'a Coffee Machine' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("a Coffee Machine")
+public void a_coffee_machine() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("the Coffee Machine is plugged in")
+public void the_coffee_machine_is_plugged_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("the Water Tank of the Coffee Machine has enough Water")
+public void the_water_tank_of_the_coffee_machine_has_enough_water() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("the Bean Tank of the Coffee Machine has enough Beans")
+public void the_bean_tank_of_the_coffee_machine_has_enough_beans() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I put a Mug")
+public void i_put_a_mug() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I make a Coffee")
+public void i_make_a_coffee() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should have a Mug of Coffee")
+public void i_should_have_a_mug_of_coffee() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
